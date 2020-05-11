@@ -1,0 +1,12 @@
+{
+  "cloudant_apikey": "1eLjp2ZQ7HCnTw3iwPAo51IMFlzAEpbAvGNqW3tcIn46",
+  "cloudant_host": "584678a3-a7d6-462d-84eb-faa0dbfc0bf3-bluemix.cloudantnosqldb.appdomain.cloud",
+  "cloudant_iam_apikey_description": "Auto-generated for key 41d72a49-9840-41ab-915c-aaa0cfedcfb9",
+  "cloudant_iam_apikey_name": "663554b6-6b13-4cfa-a5ca-4d5fce030294",
+  "cloudant_iam_role_crn": "crn:v1:bluemix:public:iam::::serviceRole:Writer",
+  "cloudant_iam_serviceid_crn": "crn:v1:bluemix:public:iam-identity::a/61da998802984f608702582983c5745c::serviceid:ServiceId-f8e92bf3-7ffd-4a12-b7a0-8d4bc61e5d83",
+  "cloudant_password": "0dcb8d574daf3ff295e1f80bceec47c35b35720b95867c5f0ec1526e59b82db9",
+  "cloudant_port": 443,
+  "cloudant_url": "https://584678a3-a7d6-462d-84eb-faa0dbfc0bf3-bluemix:0dcb8d574daf3ff295e1f80bceec47c35b35720b95867c5f0ec1526e59b82db9@584678a3-a7d6-462d-84eb-faa0dbfc0bf3-bluemix.cloudantnosqldb.appdomain.cloud",
+  "cloudant_username": "584678a3-a7d6-462d-84eb-faa0dbfc0bf3-bluemix"
+}
