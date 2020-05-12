@@ -7,7 +7,7 @@ Node-RED IBM Cloud Starter Application
 This repository is an example Node-RED application that can be deployed into
 IBM Cloud with only a couple clicks. Try it out for yourself right now by clicking:
 
-[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/ibm/node-red-app)
+[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/SmartPracticeschool/llSPS-INT-130-AI-Powered-News-Search-App-Level-1-)
 
 ### How does this work?
 
