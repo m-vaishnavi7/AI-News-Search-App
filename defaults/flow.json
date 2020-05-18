@@ -1,33 +1,64 @@
 [
     {
-        "id": "c09467b1.b189d8",
+        "id": "cbf26d27.2bd27",
         "type": "tab",
         "label": "Trending topics",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "492ca179.dd9e9",
+        "id": "49aadcd6.47cef4",
         "type": "tab",
         "label": "Search the Discovery",
         "disabled": false,
         "info": ""
     },
     {
-        "id": "1a8681cf.c2e6ee",
-        "type": "tab",
-        "label": "Slack Integration",
-        "disabled": false,
-        "info": ""
+        "id": "614e4ec8.1ce23",
+        "type": "ui_group",
+        "z": "cbf26d27.2bd27",
+        "name": "Search Results",
+        "tab": "19e3b0a1.888d9f",
+        "order": 2,
+        "disp": true,
+        "width": "16",
+        "collapse": false
     },
     {
-        "id": "c726647e.02d258",
-        "type": "slack-config",
+        "id": "9631e060.b6b64",
+        "type": "ui_group",
+        "z": "cbf26d27.2bd27",
+        "name": "Watson Discovery News ",
+        "tab": "19e3b0a1.888d9f",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "24b20169.eca7ce",
+        "type": "ui_group",
         "z": "",
-        "name": "vaishnavi_bot"
+        "name": "Search Results",
+        "tab": "",
+        "order": 2,
+        "disp": true,
+        "width": "16",
+        "collapse": false
     },
     {
-        "id": "660002e7.0ec76c",
+        "id": "461f024a.a1bdac",
+        "type": "ui_group",
+        "z": "",
+        "name": "Watson Discovery News ",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "de8452b9.cb7b9",
         "type": "ui_base",
         "theme": {
             "name": "theme-custom",
@@ -125,7 +156,7 @@
         }
     },
     {
-        "id": "a2f54885.ab2f98",
+        "id": "d843a79a.a35aa8",
         "type": "ui_tab",
         "z": "",
         "name": "Watson Discovery News Search",
@@ -134,29 +165,18 @@
         "hidden": false
     },
     {
-        "id": "3a8e4665.420b8a",
+        "id": "eda12fd6.e0121",
         "type": "ui_group",
         "z": "",
         "name": "Query",
-        "tab": "a2f54885.ab2f98",
+        "tab": "d843a79a.a35aa8",
         "order": 1,
         "disp": false,
-        "width": "22",
+        "width": 20,
         "collapse": false
     },
     {
-        "id": "128bbc1c.84d7f4",
-        "type": "ui_group",
-        "z": "",
-        "name": "Search Results: ",
-        "tab": "a2f54885.ab2f98",
-        "order": 2,
-        "disp": false,
-        "width": "22",
-        "collapse": false
-    },
-    {
-        "id": "2b5fc7cd.7efbf8",
+        "id": "5b144354.fc944c",
         "type": "ui_group",
         "z": "",
         "name": "Default",
@@ -167,70 +187,52 @@
         "collapse": false
     },
     {
-        "id": "673afe95.1001c",
+        "id": "6d079e21.866dd",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "3a8e4665.420b8a",
-        "order": 2,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "60165030.8c077",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "3a8e4665.420b8a",
-        "order": 4,
-        "width": 9,
-        "height": 1
-    },
-    {
-        "id": "67f23ac2.553da4",
-        "type": "ui_spacer",
-        "name": "spacer",
-        "group": "128bbc1c.84d7f4",
+        "group": "",
         "order": 1,
         "width": 22,
         "height": 1
     },
     {
-        "id": "1105f62e.b2385a",
+        "id": "871a05cf.14a908",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "128bbc1c.84d7f4",
+        "group": "",
         "order": 3,
         "width": 22,
         "height": 1
     },
     {
-        "id": "cb4aa57b.af5b28",
+        "id": "65b7851f.ef202c",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "128bbc1c.84d7f4",
+        "group": "",
         "order": 5,
         "width": 22,
         "height": 1
     },
     {
-        "id": "32f2f7d2.48a028",
+        "id": "9c722cfe.23489",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "128bbc1c.84d7f4",
+        "group": "",
         "order": 7,
         "width": 22,
         "height": 1
     },
     {
-        "id": "51b4f550.c8015c",
+        "id": "18ca2fc3.072b9",
         "type": "ui_spacer",
         "name": "spacer",
-        "group": "128bbc1c.84d7f4",
+        "group": "",
         "order": 9,
         "width": 22,
         "height": 1
     },
     {
-        "id": "5b6fe6c6.2381e8",
+        "id": "bf7dfa77.cbf828",
         "type": "ui_tab",
         "z": "",
         "name": "Trending",
@@ -239,36 +241,265 @@
         "hidden": false
     },
     {
-        "id": "c04c369f.161df8",
+        "id": "ea8d289a.8ad088",
         "type": "ui_group",
         "z": "",
         "name": "Trending News",
-        "tab": "5b6fe6c6.2381e8",
+        "tab": "bf7dfa77.cbf828",
         "order": 1,
         "disp": true,
-        "width": 24,
+        "width": 20,
         "collapse": false
     },
     {
-        "id": "2da88a4e.cf3306",
-        "type": "function",
-        "z": "492ca179.dd9e9",
-        "name": "",
-        "func": "msg={\n    discoveryparams:\n    {\n        \"environment_id\":\"system\",\n        \"query\":msg.payload.input\n    }\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 210,
-        "y": 180,
-        "wires": [
-            [
-                "a27572c6.de8a4"
-            ]
-        ]
+        "id": "57a4ae86.962ae",
+        "type": "ui_group",
+        "z": "",
+        "name": "News seach",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": "14",
+        "collapse": false
     },
     {
-        "id": "a27572c6.de8a4",
+        "id": "cd8516e0.859268",
+        "type": "ui_group",
+        "name": "Group 1",
+        "tab": "",
+        "order": 1,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "c76e2f8d.2df2a",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 2,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "28b65e07.021762",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 4,
+        "width": 8,
+        "height": 1
+    },
+    {
+        "id": "e2bec01a.eace2",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 5,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "17994bbc.0bc7e4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 8,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "5dfc2352.59a89c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 9,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "fd5188c.50d5678",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 10,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "981a4594.ce9468",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 11,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "7e43ebd3.9bb624",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 12,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "4b65975b.2d2eb8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 13,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "c45061e3.27bf7",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 14,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "91b9743d.87d0d8",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 15,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "1322108e.833cef",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 16,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "1a74f332.c5389d",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 17,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "233c4455.b20a3c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 18,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "6c7224ab.08ac9c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 19,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "e4033f56.b6ece",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 20,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "90533030.b48c6",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 21,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "74b65e02.58207",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 22,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "bd9644b3.291b88",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 23,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "c9c08601.f82f88",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 24,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "7487e202.2dad6c",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 25,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "4ac2cbef.c11fd4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "eda12fd6.e0121",
+        "order": 26,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "ee2e0a32.b59008",
+        "type": "slack-config",
+        "z": "cbf26d27.2bd27",
+        "name": "vaishnavi_bot"
+    },
+    {
+        "id": "8b24642d.9df228",
+        "type": "slack-config",
+        "z": "cbf26d27.2bd27",
+        "name": "vaishnavi_bot"
+    },
+    {
+        "id": "cb0b833e.2beaa",
+        "type": "slack-config",
+        "z": "cbf26d27.2bd27",
+        "name": "news_bot"
+    },
+    {
+        "id": "871bdf5c.51587",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "6caa184f.5e7e88",
+        "order": 2,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "715da11d.b2069",
         "type": "watson-discovery-v1",
-        "z": "492ca179.dd9e9",
+        "z": "cbf26d27.2bd27",
         "name": "news",
         "environmentname": "",
         "environmentId": "system",
@@ -281,46 +512,219 @@
         "passages": true,
         "nlp_query": true,
         "query": "",
-        "filter": "",
-        "aggregation": "term(enrichedTitle.entities.text,count:20)",
-        "return": "10",
+        "filter": "crawl_date>2020-05-10T10:23:15",
+        "aggregation": "term(enriched_title.entities.text,count:20).top_hits(1)",
+        "return": "enriched_title.entities.text",
         "description": "",
         "size": "LT",
         "discovery-method": "query",
-        "service-endpoint": "https://api.eu-gb.discovery.watson.cloud.ibm.com/instances/1ffc4df3-72f7-48de-99df-f941812ffde7",
+        "service-endpoint": "https://api.eu-gb.discovery.watson.cloud.ibm.com/instances/d7973e0d-0e27-40d2-90fa-59a328c1fbc1",
+        "x": 310,
+        "y": 260,
+        "wires": [
+            [
+                "2d79a930.7ef706",
+                "88ee7e41.4b2ef",
+                "9ad2da71.f93148",
+                "50447885.a16698",
+                "2af6f70c.d0bd78"
+            ]
+        ]
+    },
+    {
+        "id": "19e135a7.d602da",
+        "type": "comment",
+        "z": "cbf26d27.2bd27",
+        "name": "Trending Topics",
+        "info": "",
+        "x": 180,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "8272d3bd.2b785",
+        "type": "ui_button",
+        "z": "cbf26d27.2bd27",
+        "name": "",
+        "group": "ea8d289a.8ad088",
+        "order": 2,
+        "width": 20,
+        "height": 1,
+        "passthru": false,
+        "label": "Get trending news",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "1",
+        "payloadType": "str",
+        "topic": "",
+        "x": 210,
+        "y": 180,
+        "wires": [
+            [
+                "715da11d.b2069"
+            ]
+        ]
+    },
+    {
+        "id": "2d79a930.7ef706",
+        "type": "ui_template",
+        "z": "cbf26d27.2bd27",
+        "group": "ea8d289a.8ad088",
+        "name": "",
+        "order": 2,
+        "width": 5,
+        "height": 14,
+        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br><center>\n    <a href=\"{{msg.search_results.aggregations[0].results[0].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[0].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[4].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[4].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[8].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[8].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[12].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[12].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[16].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[16].key}}</span></a><br><br><br>\n    </center>\n</div>",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 540,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2af6f70c.d0bd78",
+        "type": "ui_template",
+        "z": "cbf26d27.2bd27",
+        "group": "ea8d289a.8ad088",
+        "name": "",
+        "order": 1,
+        "width": 20,
+        "height": 3,
+        "format": "<style>\nh2 { color: \"blue\",font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\n</style>\n<div>\n    <br>\n    <h2>This is a web app to help you find Trending Topics in the News using Watson Discovery Service. Click on the Get Trending News button and discover the top 10 trending topics.\n<br> Click on each topic to navigate to a news article related to that topic.<br><br></h2>\n</div>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 300,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "88ee7e41.4b2ef",
+        "type": "ui_template",
+        "z": "cbf26d27.2bd27",
+        "group": "ea8d289a.8ad088",
+        "name": "",
+        "order": 3,
+        "width": 5,
+        "height": 14,
+        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br><center>\n    <a href=\"{{msg.search_results.aggregations[0].results[1].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[1].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[5].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[5].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[9].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[9].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[13].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[13].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[17].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[17].key}}</span></a><br><br><br>\n    </center>\n</div>",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 540,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ad2da71.f93148",
+        "type": "ui_template",
+        "z": "cbf26d27.2bd27",
+        "group": "ea8d289a.8ad088",
+        "name": "",
+        "order": 4,
+        "width": 5,
+        "height": 14,
+        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br><center>\n    <a href=\"{{msg.search_results.aggregations[0].results[2].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[2].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[6].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[6].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[10].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[10].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[14].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[14].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[18].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[18].key}}</span></a><br><br><br>\n    </center>\n</div>",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 540,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "50447885.a16698",
+        "type": "ui_template",
+        "z": "cbf26d27.2bd27",
+        "group": "ea8d289a.8ad088",
+        "name": "",
+        "order": 5,
+        "width": 5,
+        "height": 14,
+        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br><center>\n    <a href=\"{{msg.search_results.aggregations[0].results[3].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[3].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[7].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[7].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[11].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[11].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[15].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[15].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[19].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[19].key}}</span></a><br><br><br>\n    </center>\n</div>",
+        "storeOutMessages": false,
+        "fwdInMessages": true,
+        "resendOnRefresh": false,
+        "templateScope": "local",
+        "x": 540,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9e5e8b80.1201c8",
+        "type": "function",
+        "z": "49aadcd6.47cef4",
+        "name": "",
+        "func": "msg={\n    discoveryparams:\n    {\n        \"environment_id\":\"system\",\n        \"query\":msg.payload.input\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 210,
+        "y": 180,
+        "wires": [
+            [
+                "f0b9cb4b.e91938"
+            ]
+        ]
+    },
+    {
+        "id": "f0b9cb4b.e91938",
+        "type": "watson-discovery-v1",
+        "z": "49aadcd6.47cef4",
+        "name": "news",
+        "environmentname": "",
+        "environmentId": "system",
+        "collectionId": "news-en",
+        "configurationname": "",
+        "configurationId": "",
+        "language_code": "en",
+        "collection_name": "",
+        "count": "50",
+        "passages": true,
+        "nlp_query": true,
+        "query": "",
+        "filter": "",
+        "aggregation": "term(enrichedTitle.entities.text)",
+        "return": "",
+        "description": "",
+        "size": "LT",
+        "discovery-method": "query",
+        "service-endpoint": "https://api.eu-gb.discovery.watson.cloud.ibm.com/instances/d7973e0d-0e27-40d2-90fa-59a328c1fbc1",
         "x": 350,
         "y": 180,
         "wires": [
             [
-                "6dc3425e.b7adbc"
+                "5d706102.4bfe2",
+                "de3be06c.d920e",
+                "364e90bd.2677d"
             ]
         ]
     },
     {
-        "id": "ab5dd049.55803",
-        "type": "function",
-        "z": "492ca179.dd9e9",
-        "name": "",
-        "func": "if(msg.sentiment.score<0)\nmsg.payload=\"Sentiment:  Negative\";\nif(msg.sentiment.score>0)\nmsg.payload=\"Sentiment:  Positive\";\nif(msg.sentiment.score===0)\nmsg.payload=\"Sentiment:  Neutral\";\nreturn msg",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 790,
-        "y": 80,
-        "wires": [
-            [
-                "40b51f42.6639b"
-            ]
-        ]
-    },
-    {
-        "id": "399bd09a.89023",
+        "id": "7145fc9f.2a7d44",
         "type": "ui_form",
-        "z": "492ca179.dd9e9",
+        "z": "49aadcd6.47cef4",
         "name": "",
         "label": "",
-        "group": "3a8e4665.420b8a",
+        "group": "eda12fd6.e0121",
         "order": 3,
-        "width": 9,
+        "width": 8,
         "height": 2,
         "options": [
             {
@@ -342,375 +746,55 @@
         "y": 260,
         "wires": [
             [
-                "2da88a4e.cf3306",
-                "6de025ec.ba4f9c"
+                "9e5e8b80.1201c8",
+                "bc36d3bf.ee09a"
             ]
         ]
     },
     {
-        "id": "264c4e4.5e503b2",
-        "type": "sentiment",
-        "z": "492ca179.dd9e9",
-        "name": "",
-        "property": "search_results.results[0].text",
-        "x": 660,
-        "y": 80,
-        "wires": [
-            [
-                "ab5dd049.55803"
-            ]
-        ]
-    },
-    {
-        "id": "40b51f42.6639b",
+        "id": "5d706102.4bfe2",
         "type": "ui_template",
-        "z": "492ca179.dd9e9",
-        "group": "128bbc1c.84d7f4",
-        "name": "",
-        "order": 2,
-        "width": 22,
-        "height": 4,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20px; }\na:link {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <p>\n    <a href=\"{{msg.search_results.results[0].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[0].title}}</span></a>\n    <br><br>{{msg.payload}}\n    <br><br>{{msg.search_results.results[0].text}}\n    <br>\n    </p>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 780,
-        "y": 40,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "6dc3425e.b7adbc",
-        "type": "link out",
-        "z": "492ca179.dd9e9",
-        "name": "1",
-        "links": [
-            "16744c6.b53a6b4",
-            "7b78c8d3.cd0898",
-            "8a419719.d2ff38",
-            "ebaa3332.8e1af",
-            "6811bdf7.93ebf4",
-            "4823f0fc.660ba",
-            "dd938cd6.e30ae",
-            "763740ff.e0cb5",
-            "49363ebe.dacb3",
-            "b61f718e.aaf17"
-        ],
-        "x": 455,
-        "y": 180,
-        "wires": []
-    },
-    {
-        "id": "16744c6.b53a6b4",
-        "type": "link in",
-        "z": "492ca179.dd9e9",
-        "name": "2",
-        "links": [
-            "6dc3425e.b7adbc"
-        ],
-        "x": 540,
-        "y": 60,
-        "wires": [
-            [
-                "40b51f42.6639b",
-                "264c4e4.5e503b2"
-            ]
-        ]
-    },
-    {
-        "id": "7dda6e3d.0440f",
-        "type": "function",
-        "z": "492ca179.dd9e9",
-        "name": "",
-        "func": "if(msg.sentiment.score<0)\nmsg.payload=\"Sentiment:  Negative\";\nif(msg.sentiment.score>0)\nmsg.payload=\"Sentiment:  Positive\";\nif(msg.sentiment.score===0)\nmsg.payload=\"Sentiment:  Neutral\";\nreturn msg",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 790,
-        "y": 180,
-        "wires": [
-            [
-                "44b72091.18744"
-            ]
-        ]
-    },
-    {
-        "id": "7143dd4a.f79084",
-        "type": "sentiment",
-        "z": "492ca179.dd9e9",
-        "name": "",
-        "property": "search_results.results[1].text",
-        "x": 660,
-        "y": 180,
-        "wires": [
-            [
-                "7dda6e3d.0440f"
-            ]
-        ]
-    },
-    {
-        "id": "44b72091.18744",
-        "type": "ui_template",
-        "z": "492ca179.dd9e9",
-        "group": "128bbc1c.84d7f4",
-        "name": "",
-        "order": 4,
-        "width": 22,
-        "height": 4,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20px; }\na:link {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <p>\n    <a href=\"{{msg.search_results.results[1].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[1].title}}</span></a>\n    <br><br>{{msg.payload}}\n    <br><br>{{msg.search_results.results[1].text}}\n    </p>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 780,
-        "y": 140,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4823f0fc.660ba",
-        "type": "link in",
-        "z": "492ca179.dd9e9",
-        "name": "2",
-        "links": [
-            "6dc3425e.b7adbc"
-        ],
-        "x": 540,
-        "y": 160,
-        "wires": [
-            [
-                "44b72091.18744",
-                "7143dd4a.f79084"
-            ]
-        ]
-    },
-    {
-        "id": "568666b4.ceda98",
-        "type": "function",
-        "z": "492ca179.dd9e9",
-        "name": "",
-        "func": "if(msg.sentiment.score<0)\nmsg.payload=\"Sentiment:  Negative\";\nif(msg.sentiment.score>0)\nmsg.payload=\"Sentiment:  Positive\";\nif(msg.sentiment.score===0)\nmsg.payload=\"Sentiment:  Neutral\";\nreturn msg",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 790,
-        "y": 280,
-        "wires": [
-            [
-                "8ee85437.20f318"
-            ]
-        ]
-    },
-    {
-        "id": "4be6b0ab.3a6c9",
-        "type": "sentiment",
-        "z": "492ca179.dd9e9",
-        "name": "",
-        "property": "search_results.results[2].text",
-        "x": 660,
-        "y": 280,
-        "wires": [
-            [
-                "568666b4.ceda98"
-            ]
-        ]
-    },
-    {
-        "id": "8ee85437.20f318",
-        "type": "ui_template",
-        "z": "492ca179.dd9e9",
-        "group": "128bbc1c.84d7f4",
+        "z": "49aadcd6.47cef4",
+        "group": "eda12fd6.e0121",
         "name": "",
         "order": 6,
-        "width": 22,
-        "height": 4,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20px; }\na:link {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <p>\n    <a href=\"{{msg.search_results.results[2].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[2].title}}</span></a>\n    <br><br>{{msg.payload}}\n    <br><br>{{msg.search_results.results[2].text}}\n    </p>\n</div>",
+        "width": 13,
+        "height": 20,
+        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20px; }\na:link {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <p>\n    <a href=\"{{msg.search_results.results[0].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[0].title}}</span></a>\n    <br><br>{{msg.search_results.results[0].text}}\n    <br><br><br>\n    <a href=\"{{msg.search_results.results[1].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[1].title}}</span></a>\n    <br><br>{{msg.search_results.results[1].text}}\n    <br><br><br>\n    <a href=\"{{msg.search_results.results[2].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[2].title}}</span></a>\n    <br><br>{{msg.search_results.results[2].text}}\n    <br><br><br>\n    <a href=\"{{msg.search_results.results[3].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[3].title}}</span></a>\n    <br><br>{{msg.search_results.results[3].text}}\n    <br><br><br>\n    <a href=\"{{msg.search_results.results[4].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[4].title}}</span></a>\n    <br><br>{{msg.search_results.results[4].text}}\n    <br><br><br>\n    </p>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": false,
         "templateScope": "local",
-        "x": 780,
-        "y": 240,
+        "x": 539.1515998840332,
+        "y": 179.988055229187,
         "wires": [
             []
         ]
     },
     {
-        "id": "dd938cd6.e30ae",
-        "type": "link in",
-        "z": "492ca179.dd9e9",
-        "name": "2",
-        "links": [
-            "6dc3425e.b7adbc"
-        ],
-        "x": 540,
-        "y": 260,
-        "wires": [
-            [
-                "8ee85437.20f318",
-                "4be6b0ab.3a6c9"
-            ]
-        ]
-    },
-    {
-        "id": "350b38cd.ac8808",
-        "type": "function",
-        "z": "492ca179.dd9e9",
-        "name": "",
-        "func": "if(msg.sentiment.score<0)\nmsg.payload=\"Sentiment:  Negative\";\nif(msg.sentiment.score>0)\nmsg.payload=\"Sentiment:  Positive\";\nif(msg.sentiment.score===0)\nmsg.payload=\"Sentiment:  Neutral\";\nreturn msg",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 790,
-        "y": 380,
-        "wires": [
-            [
-                "6ee67279.c0c29c"
-            ]
-        ]
-    },
-    {
-        "id": "677ab720.5d73c8",
-        "type": "sentiment",
-        "z": "492ca179.dd9e9",
-        "name": "",
-        "property": "search_results.results[3].text",
-        "x": 660,
-        "y": 380,
-        "wires": [
-            [
-                "350b38cd.ac8808"
-            ]
-        ]
-    },
-    {
-        "id": "6ee67279.c0c29c",
+        "id": "bc36d3bf.ee09a",
         "type": "ui_template",
-        "z": "492ca179.dd9e9",
-        "group": "128bbc1c.84d7f4",
-        "name": "",
-        "order": 8,
-        "width": 22,
-        "height": 4,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20px; }\na:link {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <p>\n    <a href=\"{{msg.search_results.results[3].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[3].title}}</span></a>\n    <br><br>{{msg.payload}}\n    <br><br>{{msg.search_results.results[3].text}}\n    </p>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 780,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "763740ff.e0cb5",
-        "type": "link in",
-        "z": "492ca179.dd9e9",
-        "name": "2",
-        "links": [
-            "6dc3425e.b7adbc"
-        ],
-        "x": 540,
-        "y": 360,
-        "wires": [
-            [
-                "6ee67279.c0c29c",
-                "677ab720.5d73c8"
-            ]
-        ]
-    },
-    {
-        "id": "e0603ff1.81a1c",
-        "type": "function",
-        "z": "492ca179.dd9e9",
-        "name": "",
-        "func": "if(msg.sentiment.score<0)\nmsg.payload=\"Sentiment:  Negative\";\nif(msg.sentiment.score>0)\nmsg.payload=\"Sentiment:  Positive\";\nif(msg.sentiment.score===0)\nmsg.payload=\"Sentiment:  Neutral\";\nreturn msg",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 790,
-        "y": 480,
-        "wires": [
-            [
-                "e06801ec.a79be"
-            ]
-        ]
-    },
-    {
-        "id": "f64c34c0.3fb578",
-        "type": "sentiment",
-        "z": "492ca179.dd9e9",
-        "name": "",
-        "property": "search_results.results[4].text",
-        "x": 660,
-        "y": 480,
-        "wires": [
-            [
-                "e0603ff1.81a1c"
-            ]
-        ]
-    },
-    {
-        "id": "e06801ec.a79be",
-        "type": "ui_template",
-        "z": "492ca179.dd9e9",
-        "group": "128bbc1c.84d7f4",
-        "name": "",
-        "order": 10,
-        "width": 22,
-        "height": 4,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 20px; }\na:link {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n  color: blue;\n  font-size: 18px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <p>\n    <a href=\"{{msg.search_results.results[4].url}}\"><span style=\"font-weight: bold;\">{{msg.search_results.results[4].title}}</span></a>\n    <br><br>{{msg.payload}}\n    <br><br>{{msg.search_results.results[4].text}}\n    </p>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 780,
-        "y": 440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "49363ebe.dacb3",
-        "type": "link in",
-        "z": "492ca179.dd9e9",
-        "name": "2",
-        "links": [
-            "6dc3425e.b7adbc"
-        ],
-        "x": 540,
-        "y": 460,
-        "wires": [
-            [
-                "e06801ec.a79be",
-                "f64c34c0.3fb578"
-            ]
-        ]
-    },
-    {
-        "id": "6de025ec.ba4f9c",
-        "type": "ui_template",
-        "z": "492ca179.dd9e9",
-        "group": "3a8e4665.420b8a",
+        "z": "49aadcd6.47cef4",
+        "group": "eda12fd6.e0121",
         "name": "",
         "order": 1,
-        "width": 13,
+        "width": 12,
         "height": 4,
         "format": "<style>\nh2 { color: \"blue\",font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\n</style>\n<div>\n    <br><br>\n    <h2>Watson News is a pre-enriched dataset that is updated continuosly with over 300,000 news articles and blogs a day. Search a specific news item from the Watson Discovery Service.\n    </h2>\n</div>",
         "storeOutMessages": true,
         "fwdInMessages": true,
         "resendOnRefresh": true,
         "templateScope": "local",
-        "x": 300,
-        "y": 260,
+        "x": 223.00000381469727,
+        "y": 315.00000381469727,
         "wires": [
             []
         ]
     },
     {
-        "id": "45578535.82992c",
+        "id": "3ecccbdb.50c6e4",
         "type": "comment",
-        "z": "492ca179.dd9e9",
+        "z": "49aadcd6.47cef4",
         "name": "Query Builder",
         "info": "",
         "x": 130,
@@ -718,396 +802,111 @@
         "wires": []
     },
     {
-        "id": "e8ed1ade.23cb98",
+        "id": "de3be06c.d920e",
         "type": "function",
-        "z": "1a8681cf.c2e6ee",
-        "name": "filter_input",
-        "func": "// ignore anything but messages\nif (msg.payload.type != \"message\") {\n    return null;\n}\n// ignore deleted messages\nif (msg.payload.subtype == \"message_deleted\") {\n    return null;\n}\n// ignore me_message\nif (msg.payload.subtype == \"me_message\") {\n    return null;\n}\n// ignore bot_message\nif (msg.payload.subtype == \"bot_message\") {\n    return null;\n}\nmsg.user = {\n    id: msg.payload.user,\n    name: msg.payload.userObject.name\n}\nmsg.text = msg.payload.text\nmsg.channel = msg.payload.channel\nreturn msg;",
+        "z": "49aadcd6.47cef4",
+        "name": "Sentiment",
+        "func": "var msg, i;\nvar val=[0,0,0];\nfor(i=0 ;i<50;i++)\n{\n    if(msg.search_results.results[i].enriched_text.sentiment.document.score < 0)\n        val[0]++;\n    if(msg.search_results.results[i].enriched_text.sentiment.document.score === 0)\n        val[1]++;\n    if(msg.search_results.results[i].enriched_text.sentiment.document.score > 0)\n        val[2]++;\n}\nmsg.payload=val;\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 130,
-        "y": 280,
+        "x": 440.5860786437988,
+        "y": 274.3365726470947,
         "wires": [
             [
-                "aff95708.cf6f68"
+                "69af5cb5.39b3d4",
+                "9ddf3a23.3e2628"
             ]
         ]
     },
     {
-        "id": "c32bec62.bcf1",
+        "id": "69af5cb5.39b3d4",
         "type": "function",
-        "z": "1a8681cf.c2e6ee",
-        "name": "",
-        "func": "msg.topic = \"chat.postMessage\"\nmsg.payload = {\n    channel: msg.channel,\n    text: \"Hi There!\"\n}\nreturn msg;",
+        "z": "49aadcd6.47cef4",
+        "name": "retrieval",
+        "func": "msg.payload=\n[\n    {\n\"series\":[\"News\"],\n\"data\":[msg.payload[0],msg.payload[2],msg.payload[1]],\n\"labels\":[\"Negative\",\"Neutral\",\"Positive\"]\n    }\n]\nreturn msg;",
         "outputs": 1,
         "noerr": 0,
-        "x": 310,
-        "y": 160,
+        "x": 610.1495170593262,
+        "y": 273.33653831481934,
         "wires": [
             [
-                "3371ddd8.905e12"
+                "3502383f.2efdc8"
             ]
         ]
     },
     {
-        "id": "aff95708.cf6f68",
-        "type": "switch",
-        "z": "1a8681cf.c2e6ee",
+        "id": "3502383f.2efdc8",
+        "type": "ui_chart",
+        "z": "49aadcd6.47cef4",
         "name": "",
-        "property": "payload.text",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "eq",
-                "v": "Hi",
-                "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "News please",
-                "vt": "str"
-            },
-            {
-                "t": "else"
-            }
+        "group": "eda12fd6.e0121",
+        "order": 7,
+        "width": 6,
+        "height": 5,
+        "label": "",
+        "chartType": "bar",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
         ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 3,
-        "x": 150,
-        "y": 200,
-        "wires": [
-            [
-                "c32bec62.bcf1"
-            ],
-            [
-                "8de997c2.e84c38"
-            ],
-            [
-                "cb7ff5d3.12c868"
-            ]
-        ]
-    },
-    {
-        "id": "8de997c2.e84c38",
-        "type": "function",
-        "z": "1a8681cf.c2e6ee",
-        "name": "",
-        "func": "msg.topic = \"chat.postMessage\"\nmsg.payload = {\n    channel: msg.channel,\n    text: \"What news are you interested in?!\"\n}\nreturn msg;",
+        "useOldStyle": false,
         "outputs": 1,
-        "noerr": 0,
-        "x": 310,
-        "y": 200,
-        "wires": [
-            [
-                "3371ddd8.905e12"
-            ]
-        ]
-    },
-    {
-        "id": "cb7ff5d3.12c868",
-        "type": "function",
-        "z": "1a8681cf.c2e6ee",
-        "name": "",
-        "func": "msg.topic = \"chat.postMessage\"\nmsg.payload = {\n    channel: msg.channel,\n    query: msg.payload.text,\n    text: \"Ok searching...\"\n}\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 310,
-        "y": 240,
-        "wires": [
-            [
-                "3371ddd8.905e12",
-                "e90c9b5f.4ca7c8"
-            ]
-        ]
-    },
-    {
-        "id": "e90c9b5f.4ca7c8",
-        "type": "watson-discovery-v1",
-        "z": "1a8681cf.c2e6ee",
-        "name": "news",
-        "environmentname": "",
-        "environmentId": "system",
-        "collectionId": "news-en",
-        "configurationname": "",
-        "configurationId": "",
-        "language_code": "en",
-        "collection_name": "",
-        "count": "5",
-        "passages": true,
-        "nlp_query": true,
-        "query": "",
-        "filter": "",
-        "aggregation": "term(enrichedTitle.entities.text,count:20)",
-        "return": "10",
-        "description": "",
-        "size": "LT",
-        "discovery-method": "query",
-        "service-endpoint": "https://api.eu-gb.discovery.watson.cloud.ibm.com/instances/1ffc4df3-72f7-48de-99df-f941812ffde7",
-        "x": 310,
-        "y": 340,
-        "wires": [
-            [
-                "90bbb166.00e22",
-                "6c24aa7f.024af4",
-                "c3a80574.7a7f58"
-            ]
-        ]
-    },
-    {
-        "id": "90bbb166.00e22",
-        "type": "function",
-        "z": "1a8681cf.c2e6ee",
-        "name": "Output function",
-        "func": "msg.topic = \"chat.postMessage\"\nmsg.payload = {\n    channel: msg.channel,\n    text: msg.search_results.results[0].text + \"\\n\" + msg.search_results.results[0].url + \"\\n\\n\\n\\n\"\n}\nreturn msg;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 500,
-        "y": 300,
-        "wires": [
-            [
-                "3371ddd8.905e12"
-            ]
-        ]
-    },
-    {
-        "id": "c3a80574.7a7f58",
-        "type": "function",
-        "z": "1a8681cf.c2e6ee",
-        "name": "Output function",
-        "func": "msg.topic = \"chat.postMessage\"\nmsg.payload = {\n    channel: msg.channel,\n    text: msg.search_results.results[2].text + \"\\n\" + msg.search_results.results[0].url + \"\\n\\n\\n\\n\"\n}\nreturn msg;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 500,
-        "y": 380,
-        "wires": [
-            [
-                "3371ddd8.905e12"
-            ]
-        ]
-    },
-    {
-        "id": "6c24aa7f.024af4",
-        "type": "function",
-        "z": "1a8681cf.c2e6ee",
-        "name": "Output function",
-        "func": "msg.topic = \"chat.postMessage\"\nmsg.payload = {\n    channel: msg.channel,\n    text: msg.search_results.results[1].text + \"\\n\" + msg.search_results.results[0].url + \"\\n\\n\\n\\n\"\n}\nreturn msg;\n",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 500,
-        "y": 340,
-        "wires": [
-            [
-                "3371ddd8.905e12"
-            ]
-        ]
-    },
-    {
-        "id": "b4b4fc36.bb54c",
-        "type": "slack-rtm-in",
-        "z": "1a8681cf.c2e6ee",
-        "client": "c726647e.02d258",
-        "name": "",
-        "events": "",
-        "x": 90,
-        "y": 360,
-        "wires": [
-            [
-                "e8ed1ade.23cb98"
-            ]
-        ]
-    },
-    {
-        "id": "3371ddd8.905e12",
-        "type": "slack-web-out",
-        "z": "1a8681cf.c2e6ee",
-        "client": "c726647e.02d258",
-        "name": "",
-        "x": 760,
-        "y": 200,
+        "x": 775.5564804077148,
+        "y": 272.20867681503296,
         "wires": [
             []
         ]
     },
     {
-        "id": "2b5cb95a.0859e6",
-        "type": "comment",
-        "z": "1a8681cf.c2e6ee",
-        "name": "Slack Integration",
-        "info": "",
-        "x": 140,
-        "y": 80,
-        "wires": []
-    },
-    {
-        "id": "b264fcb3.a64a1",
-        "type": "watson-discovery-v1",
-        "z": "c09467b1.b189d8",
-        "name": "news",
-        "environmentname": "",
-        "environmentId": "system",
-        "collectionId": "news-en",
-        "configurationname": "",
-        "configurationId": "",
-        "language_code": "en",
-        "collection_name": "",
-        "count": "5",
-        "passages": true,
-        "nlp_query": true,
-        "query": "",
-        "filter": "crawl_date>2020-05-10T10:23:15",
-        "aggregation": "term(enriched_title.entities.text,count:20).top_hits(1)",
-        "return": "enriched_title.entities.text",
-        "description": "",
-        "size": "LT",
-        "discovery-method": "query",
-        "service-endpoint": "https://api.eu-gb.discovery.watson.cloud.ibm.com/instances/1ffc4df3-72f7-48de-99df-f941812ffde7",
-        "x": 310,
-        "y": 260,
-        "wires": [
-            [
-                "18a4b0d5.8f804f",
-                "f1821a75.9cf5e8",
-                "10114763.f5f739",
-                "388acbb2.fb4204",
-                "501009a8.735588"
-            ]
-        ]
-    },
-    {
-        "id": "18a4b0d5.8f804f",
-        "type": "ui_template",
-        "z": "c09467b1.b189d8",
-        "group": "c04c369f.161df8",
+        "id": "364e90bd.2677d",
+        "type": "debug",
+        "z": "49aadcd6.47cef4",
         "name": "",
-        "order": 3,
-        "width": 6,
-        "height": 14,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[0].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[0].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[4].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[4].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[8].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[8].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[12].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[12].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[16].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[16].key}}</span></a><br><br><br>\n    </p>\n</div>",
-        "storeOutMessages": false,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 540,
-        "y": 200,
-        "wires": [
-            []
-        ]
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "search_results",
+        "targetType": "msg",
+        "x": 493.4581547484774,
+        "y": 81.209113467178,
+        "wires": [],
+        "l": false
     },
     {
-        "id": "9b554a63.8f5178",
-        "type": "ui_button",
-        "z": "c09467b1.b189d8",
+        "id": "9ddf3a23.3e2628",
+        "type": "debug",
+        "z": "49aadcd6.47cef4",
         "name": "",
-        "group": "c04c369f.161df8",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "label": "Get trending news",
-        "tooltip": "",
-        "color": "",
-        "bgcolor": "",
-        "icon": "",
-        "payload": "1",
-        "payloadType": "str",
-        "topic": "",
-        "x": 210,
-        "y": 180,
-        "wires": [
-            [
-                "b264fcb3.a64a1"
-            ]
-        ]
-    },
-    {
-        "id": "501009a8.735588",
-        "type": "ui_template",
-        "z": "c09467b1.b189d8",
-        "group": "c04c369f.161df8",
-        "name": "",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "format": "<style>\nh2 { color: \"blue\",font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\n</style>\n<div>\n    <br>\n    <h2>This is a web app to help you find Trending Topics in the News using Watson Discovery Service. Click on the Get Trending News button and discover the top 10 trending topics.\n<br> Click on each topic to navigate to a news article related to that topic.<br><br></h2>\n</div>",
-        "storeOutMessages": true,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 300,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f1821a75.9cf5e8",
-        "type": "ui_template",
-        "z": "c09467b1.b189d8",
-        "group": "c04c369f.161df8",
-        "name": "",
-        "order": 4,
-        "width": 6,
-        "height": 14,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[1].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[1].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[5].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[5].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[9].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[9].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[13].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[13].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[17].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[17].key}}</span></a><br><br><br>\n    </p>\n</div>",
-        "storeOutMessages": false,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 540,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "10114763.f5f739",
-        "type": "ui_template",
-        "z": "c09467b1.b189d8",
-        "group": "c04c369f.161df8",
-        "name": "",
-        "order": 5,
-        "width": 6,
-        "height": 14,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[2].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[2].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[6].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[6].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[10].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[10].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[14].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[14].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[18].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[18].key}}</span></a><br><br><br>\n    </p>\n</div>",
-        "storeOutMessages": false,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 540,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "388acbb2.fb4204",
-        "type": "ui_template",
-        "z": "c09467b1.b189d8",
-        "group": "c04c369f.161df8",
-        "name": "",
-        "order": 6,
-        "width": 6,
-        "height": 14,
-        "format": "<style>\np { font-family: \"Century Gothic\", CenturyGothic, AppleGothic, sans-serif; font-size: 25px; font-style: normal; font-variant: normal; font-weight: 500; line-height: 25px; }\na:link {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n\na:visited {\n    text-decoration: none;\n  color: blue;\n  font-size: 25px;\n  font-family: \"Century Gothic\", CenturyGothic;\n}\n</style>\n<div>\n    <br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[3].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[3].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[7].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[7].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[11].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[11].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[15].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[15].key}}</span></a><br><br><br>\n    <a href=\"{{msg.search_results.aggregations[0].results[19].aggregations[0].hits.hits[0].url}}\"><span>{{msg.search_results.aggregations[0].results[19].key}}</span></a><br><br><br>\n    </p>\n</div>",
-        "storeOutMessages": false,
-        "fwdInMessages": true,
-        "resendOnRefresh": false,
-        "templateScope": "local",
-        "x": 540,
-        "y": 320,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "9723477f.da9c88",
-        "type": "comment",
-        "z": "c09467b1.b189d8",
-        "name": "Trending Topics",
-        "info": "",
-        "x": 180,
-        "y": 80,
-        "wires": []
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 508.5000057220459,
+        "y": 352.00001525878906,
+        "wires": [],
+        "l": false
     }
 ]
