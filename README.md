@@ -1,60 +1,52 @@
-Node-RED IBM Cloud Starter Application
-====================================
+# AI Powered News Search App (Level-1)
+
+## Description
+
+The web is home to massive amounts of data, with more being created every day. Organizations can harness this constant stream of information to gain understanding, plan strategies, and find opportunities. Enriched news data can help to make dynamic connections across current events faster.
+The AI Powered News Search App is a Node-RED application created on IBM Cloud that acts as a simple user interface that integrates with the IBM Watson Discovery Service and demonstrates the following two use cases using Watson Discovery News:
+
+* **Search**: Query for the most relevant new articles about a specific topic or subject. Because the news collection is pre-enriched with natural language processing, you can query not just on keywords or categories but also on concepts, sentiment, and relations to get richer search responses.
+
+* **Trending topics in the news**: Identify popular topics over the past 24 hours. Topics can be general, or specific to an industry or category.
+
+## Slack Integration
+
+* **Slack Integration**: This app can also be integrated with the slack interface through a bot. Thus, the user can directly query the Watson Discovery News without using the Web application from the Slack app itself.
+
+## Flow
+
+1. The user interacts with the app UI(Built with Node-RED or Cloud or Local) to request relevant news content.
+2. The app sends user requests to Watson Discovery News.
+3. The Watson Discovery Service is continually crawling the web to update its Discovery News collection.
+4. The Watson Discovery Service responds to Slack search requests.
+
+## Sample Output
+
+**The Home page:**
+
+![demo](results/Home_page.png)
+
+<br>
+
+**The trending page:**
+
+![demo](results/trending_topics.png)
+
+<br>
+
+**The query page:**
+
+![demo](results/query_builder.png)
+
+<br>
+
+**Slack integration:**
+
+![slack](results/slack1.png)
+
+<br><br>
+
+![slack](results/slack2.png)
 
 
-### Node-RED on IBM Cloud
 
-This repository is an example Node-RED application that can be deployed into
-IBM Cloud with only a couple clicks. Try it out for yourself right now by clicking:
-
-[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/SmartPracticeschool/llSPS-INT-130-AI-Powered-News-Search-App-Level-1-)
-
-### How does this work?
-
-When you click the button, you are taken to IBM Cloud where you get a pick a name
-for your application at which point the platform takes over, grabs the code from
-this repository and gets it deployed.
-
-It will automatically create an instance of the Cloudant service and bind it to
-your app. This is where your Node-RED instance will store its data.
-
-When you first access the application, you'll be asked to set some security options
-to ensure your flow editor remains secure from unauthorised access.
-
-It includes a set of default flows that are automatically deployed the first time
-Node-RED runs.
-
-### Customising Node-RED
-
-This repository is here to be cloned, modified and re-used to allow anyone create
-their own Node-RED based application that can be quickly deployed to IBM Cloud.
-
-The default flows are stored in the `defaults` directory in the file called `flow.json`.
-When the application is first started, this flow is copied to the attached Cloudant
-instance. When a change is deployed from the editor, the version in cloudant will
-be updated - not this file.
-
-The web content you get when you go to the application's URL is stored under the
-`public` directory.
-
-Additional nodes can be added to the `package.json` file and all other Node-RED
-configuration settings can be set in `bluemix-settings.js`.
-
-If you do clone this repository, make sure you update this `README.md` file to point
-the `Deploy to IBM Cloud` button at your repository.
-
-If you want to change the name of the Cloudant instance that gets created, the memory
-allocated to the application or other deploy-time options, have a look in `manifest.yml`.
-
-### Environment Variables
-
-The following environment variables can be used to configure the application:
-
- - `NODE_RED_STORAGE_NAME` - the Cloudant service name as exposed in `VCAP_SERVICES`
- - `NODE_RED_STORAGE_DB_NAME` - the name of the database to use on Cloudant
- - `NODE_RED_STORAGE_APP_NAME` - the prefix used in document names, allowing multiple instances
-    to share the same database.
- - `NODE_RED_USERNAME`, `NODE_RED_PASSWORD` - if set, used to secure the editor
- - `NODE_RED_GUEST_ACCESS` - if the editor is secured, this will allow anonymous,
-    read-only access
- - `NODE_RED_USE_APPMETRICS` - enables the appmetrics dashboard
